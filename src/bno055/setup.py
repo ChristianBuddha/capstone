@@ -19,7 +19,7 @@ setup(
          ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
-        (os.path.join('share', package_name, 'config'), glob('bno055/params/*.yaml'))
+        (os.path.join('share', package_name, 'params'), glob('bno055/params/*.yaml'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,

@@ -10,7 +10,7 @@ class OmniSerialBridge(Node):
         super().__init__('omni_serial_bridge')
 
         self.declare_parameter('port', '/dev/ttyUSB0')
-        self.declare_parameter('baud', 115200)
+        self.declare_parameter('baud', 256000)
         self.declare_parameter('send_hz', 20.0)
         self.declare_parameter('cmd_timeout', 0.25)  # seconds
 
