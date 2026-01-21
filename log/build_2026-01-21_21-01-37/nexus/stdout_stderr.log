@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/nexus/nexus.egg-info/PKG-INFO
+writing dependency_links to ../../build/nexus/nexus.egg-info/dependency_links.txt
+writing entry points to ../../build/nexus/nexus.egg-info/entry_points.txt
+writing requirements to ../../build/nexus/nexus.egg-info/requires.txt
+writing top-level names to ../../build/nexus/nexus.egg-info/top_level.txt
+reading manifest file '../../build/nexus/nexus.egg-info/SOURCES.txt'
+writing manifest file '../../build/nexus/nexus.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/hs/capstone/install/nexus/lib/python3.10/site-packages/nexus-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nexus/nexus.egg-info to /home/hs/capstone/install/nexus/lib/python3.10/site-packages/nexus-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_nexus script to /home/hs/capstone/install/nexus/lib/nexus
+Installing joy_to_cmd_vel script to /home/hs/capstone/install/nexus/lib/nexus
+Installing odom_monitor script to /home/hs/capstone/install/nexus/lib/nexus
+Installing odom_serial_node script to /home/hs/capstone/install/nexus/lib/nexus
+Installing test script to /home/hs/capstone/install/nexus/lib/nexus
+Installing wheel_encoder script to /home/hs/capstone/install/nexus/lib/nexus
+writing list of installed files to '/home/hs/capstone/build/nexus/install.log'

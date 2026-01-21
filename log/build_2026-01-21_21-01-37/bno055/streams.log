@@ -1,0 +1,86 @@
+[1.680s] Invoking command in '/home/hs/capstone/src/bno055': PYTHONPATH=/home/hs/capstone/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/capstone/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/hs/capstone/build/bno055/build install --record /home/hs/capstone/build/bno055/install.log --single-version-externally-managed install_data
+[2.150s] running egg_info
+[2.151s] creating ../../build/bno055/bno055.egg-info
+[2.151s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[2.151s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[2.152s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[2.152s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[2.152s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[2.152s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[2.155s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[2.155s] adding license file 'LICENSE'
+[2.155s] adding license file 'AUTHORS'
+[2.156s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[2.156s] running build
+[2.156s] running build_py
+[2.157s] creating /home/hs/capstone/build/bno055/build
+[2.157s] creating /home/hs/capstone/build/bno055/build/lib
+[2.157s] creating /home/hs/capstone/build/bno055/build/lib/bno055
+[2.157s] copying bno055/__init__.py -> /home/hs/capstone/build/bno055/build/lib/bno055
+[2.164s] copying bno055/bno055.py -> /home/hs/capstone/build/bno055/build/lib/bno055
+[2.164s] copying bno055/registers.py -> /home/hs/capstone/build/bno055/build/lib/bno055
+[2.165s] creating /home/hs/capstone/build/bno055/build/lib/bno055/error_handling
+[2.165s] copying bno055/error_handling/exceptions.py -> /home/hs/capstone/build/bno055/build/lib/bno055/error_handling
+[2.166s] copying bno055/error_handling/__init__.py -> /home/hs/capstone/build/bno055/build/lib/bno055/error_handling
+[2.166s] creating /home/hs/capstone/build/bno055/build/lib/bno055/connectors
+[2.166s] copying bno055/connectors/i2c.py -> /home/hs/capstone/build/bno055/build/lib/bno055/connectors
+[2.166s] copying bno055/connectors/Connector.py -> /home/hs/capstone/build/bno055/build/lib/bno055/connectors
+[2.166s] copying bno055/connectors/uart.py -> /home/hs/capstone/build/bno055/build/lib/bno055/connectors
+[2.167s] copying bno055/connectors/__init__.py -> /home/hs/capstone/build/bno055/build/lib/bno055/connectors
+[2.167s] creating /home/hs/capstone/build/bno055/build/lib/bno055/sensor
+[2.167s] copying bno055/sensor/SensorService.py -> /home/hs/capstone/build/bno055/build/lib/bno055/sensor
+[2.168s] copying bno055/sensor/__init__.py -> /home/hs/capstone/build/bno055/build/lib/bno055/sensor
+[2.168s] creating /home/hs/capstone/build/bno055/build/lib/bno055/params
+[2.168s] copying bno055/params/NodeParameters.py -> /home/hs/capstone/build/bno055/build/lib/bno055/params
+[2.168s] copying bno055/params/__init__.py -> /home/hs/capstone/build/bno055/build/lib/bno055/params
+[2.170s] running install
+[2.170s] running install_lib
+[2.171s] creating /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055
+[2.172s] copying /home/hs/capstone/build/bno055/build/lib/bno055/registers.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055
+[2.172s] copying /home/hs/capstone/build/bno055/build/lib/bno055/bno055.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055
+[2.172s] creating /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[2.172s] copying /home/hs/capstone/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[2.172s] copying /home/hs/capstone/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/error_handling
+[2.172s] creating /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/connectors/uart.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors
+[2.173s] creating /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[2.173s] copying /home/hs/capstone/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[2.174s] copying /home/hs/capstone/build/bno055/build/lib/bno055/__init__.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055
+[2.174s] creating /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/params
+[2.174s] copying /home/hs/capstone/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/params
+[2.174s] copying /home/hs/capstone/build/bno055/build/lib/bno055/params/__init__.py -> /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/params
+[2.174s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/registers.py to registers.cpython-310.pyc
+[2.176s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/bno055.py to bno055.cpython-310.pyc
+[2.177s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-310.pyc
+[2.177s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/error_handling/__init__.py to __init__.cpython-310.pyc
+[2.177s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors/i2c.py to i2c.cpython-310.pyc
+[2.178s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors/Connector.py to Connector.cpython-310.pyc
+[2.178s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors/uart.py to uart.cpython-310.pyc
+[2.179s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/connectors/__init__.py to __init__.cpython-310.pyc
+[2.180s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-310.pyc
+[2.184s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/sensor/__init__.py to __init__.cpython-310.pyc
+[2.184s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/__init__.py to __init__.cpython-310.pyc
+[2.184s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-310.pyc
+[2.186s] byte-compiling /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055/params/__init__.py to __init__.cpython-310.pyc
+[2.186s] running install_data
+[2.186s] creating /home/hs/capstone/install/bno055/share/ament_index
+[2.186s] creating /home/hs/capstone/install/bno055/share/ament_index/resource_index
+[2.186s] creating /home/hs/capstone/install/bno055/share/ament_index/resource_index/packages
+[2.187s] copying resource/bno055 -> /home/hs/capstone/install/bno055/share/ament_index/resource_index/packages
+[2.187s] copying package.xml -> /home/hs/capstone/install/bno055/share/bno055
+[2.187s] creating /home/hs/capstone/install/bno055/share/bno055/launch
+[2.188s] copying launch/bno055.launch.py -> /home/hs/capstone/install/bno055/share/bno055/launch
+[2.188s] creating /home/hs/capstone/install/bno055/share/bno055/config
+[2.188s] copying bno055/params/bno055_params_test.yaml -> /home/hs/capstone/install/bno055/share/bno055/config
+[2.188s] copying bno055/params/bno055_params_i2c.yaml -> /home/hs/capstone/install/bno055/share/bno055/config
+[2.188s] copying bno055/params/bno055_params.yaml -> /home/hs/capstone/install/bno055/share/bno055/config
+[2.188s] running install_egg_info
+[2.191s] Copying ../../build/bno055/bno055.egg-info to /home/hs/capstone/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info
+[2.192s] running install_scripts
+[2.224s] Installing bno055 script to /home/hs/capstone/install/bno055/lib/bno055
+[2.225s] writing list of installed files to '/home/hs/capstone/build/bno055/install.log'
+[2.274s] Invoked command in '/home/hs/capstone/src/bno055' returned '0': PYTHONPATH=/home/hs/capstone/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/capstone/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/hs/capstone/build/bno055/build install --record /home/hs/capstone/build/bno055/install.log --single-version-externally-managed install_data
