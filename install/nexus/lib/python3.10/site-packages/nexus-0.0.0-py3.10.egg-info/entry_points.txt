@@ -1,8 +1,0 @@
-[console_scripts]
-control_nexus = nexus.control_nexus:main
-joy_to_cmd_vel = nexus.joy_to_cmd_vel:main
-odom_monitor = nexus.odom_monitor:main
-odom_serial_node = nexus.odom_serial_node:main
-test = nexus.test:main
-wheel_encoder = nexus.wheel_encoder:main
-
